@@ -145,3 +145,7 @@ button:hover {
 image {
   overflow: hidden;
 }
+
+.buttonred {
+  margin-top: 15px;
+}
