@@ -97,8 +97,8 @@ li a:hover:not(.active) {
   background: #2c2c2d;
   font-family:Roboto;
   font-size: 30px;
-  border: 4px solid rgb(255, 0, 0); 
-  border-radius: 50px;
+  border: 3px solid rgb(255, 0, 0); 
+  border-radius: 55px;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -108,8 +108,11 @@ li a:hover:not(.active) {
                                   supported by Chrome and Opera */
 }
 .cart {
-padding: 10px;
+float:right;
 position: sticky;
+top: 15px;
+right: 20px;
+
 -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -127,7 +130,7 @@ button{
   font-family:Roboto;
   width: 200px;
   font-size: 20px;
-  border-radius: 100px!important;
+  border-radius:10px!important;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */

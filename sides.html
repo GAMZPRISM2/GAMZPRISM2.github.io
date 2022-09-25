@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport">
   <link rel="stylesheet" href="thinkpizza.css">
-  <!-- Hotjar Tracking Code for https://gamzprism2.github.io/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3169161,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+  <script src="sitetracking.js"></script>
 </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +20,7 @@
 <div class="logo" style="margin-left: 10px;">
     <img loading="lazy" class="logo" src="https://thinkpizza.com.au/wp-content/uploads/2019/03/Think-Logo-2021-300x131.png" alt="Think Pizza Logo" itemprop="image" height="131" width="300" data-no-lazy="1" srcset="https://thinkpizza.com.au/wp-content/uploads/2019/03/Think-Logo-2021-300x131.png, https://thinkpizza.com.au/wp-content/uploads/2019/03/Think-Logo-2021-768x335.png, https://thinkpizza.com.au/wp-content/uploads/2019/03/Think-Logo-2021.png" sizes="(max-width: 300px) 100vw, 300px" title="Think Pizza">
     </a>
-    <img loading="lazy" class="logo" src="cart.png" alt="Cart" itemprop="image" height="100" width="100 data-no-lazy="1" srcset="cart.png" sizes="(max-width: 300px) 100vw, 300px" title="Cart" style="position: sticky;left:1780px;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"></div>
+    <div class ="cart"><img loading="lazy" class="logo" src="cart.png" alt="Cart" itemprop="image" height="100" width="100 data-no-lazy="1" srcset="cart.png" sizes="(max-width: 300px) 100vw, 300px" title="Cart" ></div></div>
         </div>
 <div>
 </div>
@@ -45,12 +36,13 @@
 <div class="fl-menu fl-menu-responsive-toggle-mobile">
 <rect class="fl-hamburger-menu-bottom" y="410" width="512" height="102"></rect>
 </svg>
-</span></button><ul id="menu-home" class="menu fl-menu-horizontal fl-toggle-arrows focus" style="border-radius: 100px;"><li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item focus"><a href="index.html">PIZZAS</a></li><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="sides.html">SIDES</a></li><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="drinks.html">DRINKS</a></li><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="dessert.html">DESSERT</a></li><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="menu.html">MENU</a></li></ul>	<div class="fl-clear"></div>
+</span></button><ul id="menu-home" class="menu fl-menu-horizontal fl-toggle-arrows focus" style="border-radius: 10px;"><li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item focus"><a href="index.html">PIZZA</a></li><li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="sides.html">SIDE</a></li><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="drinks.html">DRINK</a></li><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="dessert.html">DESSERT</a></li><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="menu.html">MENU</a></li></ul>	<div class="fl-clear"></div>
 <nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"></nav></div>
 <div class="grid">
   <div class="grid__item"><a href="addcart.html"><img bOrder="0" alt="W3Schools" src="SidesImage/GarlicBread.jpg"style="border-radius: 50px;" width="200" height="200"></a>Garlic Bread<div class = "buttonred"><button type="button" onclick="onClick()">Order </button></div></div>
   <div class="grid__item"><a href="addcart.html"><img bOrder="0" alt="W3Schools" src="SidesImage/CheeseGarlicBread.jpg" style="border-radius: 50px;" width="200" height="200"></a>Garlic & Cheese Bread<div class = "buttonred"><button type="button" onclick="onClick()">Order </button></div></div>
   <div class="grid__item"><a href="addcart.html"><img bOrder="0" alt="W3Schools" src="SidesImage/Meatballs.jpg" style="border-radius: 50px;" width="200" height="200"></a>BBQ Meatballs<div class = "buttonred"><button type="button" onclick="onClick()">Order </button></div></div>
+  <div class="grid__item"><a href="addcart.html"><img bOrder="0" alt="W3Schools" src="SidesImage/wings.jpg" style="border-radius: 50px;" width="200" height="200"></a>BBQ Wings<div class = "buttonred"><button type="button" onclick="onClick()">Order </button></div></div>
  </div>
  <div class="wsite-nav-cart"> 
  </div>
