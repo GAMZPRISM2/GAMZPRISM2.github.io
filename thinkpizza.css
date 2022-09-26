@@ -152,6 +152,7 @@ image {
 
 .overall{
   position: sticky;
+  margin-top: 10px;
 }
 .buttonred {
   margin-top: 15px;
@@ -160,24 +161,18 @@ image {
   position: sticky;
   color: white;
   font-family:Roboto;
-  float:right;
   font-size: 50px;
-  top: 200px;
-  right: 950px;
 }
 .description {
   position: sticky;
   color: rgba(255, 255, 255, 0.692);
   font-family: 'Roboto', sans-serif;
-  float:right;
   font-size: 20px;
-  top: 275px;
+  text-align: left;
 }
-
 .buttonredinfo {
   position:sticky;
-  float:left;
-  left:747px;
-  bottom: 615px;
-  /*left: 798px;
+  float: left;
+  bottom: 0px;
 }
+
