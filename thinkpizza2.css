@@ -1,20 +1,7 @@
-.navbar {
-    padding:0rem;
-    margin-bottom:2rem;
-  }
-  
-  .dropdown .dropdown-menu {
-    border-radius:0;
-   }
-  
-  
-  /* Medium devices (tablets, 768px and up) 
-  The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) {  
-  .dropdown:hover .dropdown-menu {
-      display: block;
-      margin-top: 0;
-    border-radius:0;
-   }
-  }
-  
+.description {
+  position: sticky;
+  color: rgba(255, 255, 255, 0.692);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
