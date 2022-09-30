@@ -100,6 +100,7 @@ li a:hover:not(.active) {
   font-size: 30px;
   border: 3px solid rgb(255, 0, 0); 
   border-radius: 55px;
+  font-weight: 700;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -132,6 +133,7 @@ button{
   font-family:Roboto;
   width: 200px;
   font-size: 20px;
+  font-weight: 700;
   border-radius:10px!important;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -146,6 +148,7 @@ button:hover {
   background-color: #2c2c2d;
   border: 5px solid rgb(44,44,45);
   position: sticky;
+  font-weight: 700;
 }
 
 image {
@@ -173,8 +176,79 @@ image {
   text-align: left;
 }
 .buttonredinfo {
-  position:sticky;
+  position: absolute;
   float: left;
   bottom: 0px;
+}
+.poweredbydoordash {
+  color: rgba(255, 255, 255, 0.692);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  position: absolute;
+  bottom: -100px;
+  left: 445px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.692);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  position: absolute;
+  bottom: -125px;
+  left: 420px;
+}
+.social {
+  color: rgba(255, 255, 255, 0.692);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  position: absolute;
+  bottom: -30px;
+  left: 470px;
+}
+.footer {
+  width: 1063px;
+  height: 140px;
+  background-color: rgb(37, 32, 32);
+  margin-top: 650px;
+  border-radius: 10px;
+}
+.overall
+{
+  margin-top: -550px;
+}
+.iconoverall {
+  position: absolute;
+  left: 60px;
+  bottom: 570px;
+}
+.icon1 {
+  position: absolute;
+  padding-right: 5px;
+  display: inline-block;
+  left: 400px;
+  bottom: -645px;
+}
+.icon2 {
+  position: absolute;
+  padding-right: 5px;
+  display: inline-block;
+  left: 440px;
+  bottom: -645px;
+}
+.icon3 {
+  position: absolute;
+  padding-right: 5px;
+  display: inline-block;
+  left: 480px;
+  bottom: -645px;
+}
+.icon4 {
+  position: absolute;
+  padding-right: 5px;
+  display: inline-block;
+  left: 520px;
+  bottom: -645px;
 }
 
