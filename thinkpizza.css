@@ -232,11 +232,11 @@ image {
 .social {
   color: #fefffe;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 700;
   position: absolute;
   bottom: -30px;
-  left: 470px;
+  left: 443px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -295,5 +295,14 @@ image {
   display: inline-block;
   left: 520px;
   bottom: -645px;
+}
+a {
+  color: #fefffe;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6;
+   
 }
 
