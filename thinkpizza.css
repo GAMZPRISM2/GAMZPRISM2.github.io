@@ -202,7 +202,7 @@ image {
   font-size: 15px;
   font-weight: 300;
   position: absolute;
-  bottom: -100px;
+  bottom: -110px;
   left: 445px;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -219,7 +219,7 @@ image {
   font-weight: 700;
   font-weight: 300;
   position: absolute;
-  bottom: -125px;
+  bottom: -150px;
   left: 325px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -247,7 +247,7 @@ image {
 }
 .footer {
   width: 1063px;
-  height: 140px;
+  height: 200px;
   background-color: #171717;
   margin-top: 650px;
   border-radius: 10px;
@@ -259,7 +259,7 @@ image {
 .iconoverall {
   position: absolute;
   left: 60px;
-  bottom: 570px;
+  bottom: 565px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
