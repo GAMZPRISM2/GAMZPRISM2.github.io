@@ -80,7 +80,7 @@ li a:hover:not(.active) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding:60px;
-  font-family:Roboto;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 30px;
   
@@ -96,7 +96,7 @@ li a:hover:not(.active) {
   width: 200px;
   height: 200px;
   background: #2c2c2d;
-  font-family:Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   border: 3px solid rgb(255, 0, 0); 
   border-radius: 55px;
@@ -130,7 +130,7 @@ button{
   color: rgb(255, 255, 255);
   position: sticky;
   float: right;
-  font-family:Roboto;
+  font-family: 'Roboto', sans-serif;
   width: 200px;
   font-size: 20px;
   font-weight: 700;
@@ -138,10 +138,10 @@ button{
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Firefox */
+     -moz-user-select: none; /* Old versions of Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none; /* Non-prefixed version, currently
-                                supported by Chrome and Opera */
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 
 button:hover {
@@ -164,16 +164,31 @@ image {
 }
 .text {
   position: sticky;
-  color: white;
+  color: #fefffe;
   font-family:Roboto;
   font-size: 50px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 .description {
   position: sticky;
-  color: rgba(255, 255, 255, 0.692);
+  color: #fefffe;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  font-weight: 300;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 .buttonredinfo {
   position: absolute;
@@ -181,36 +196,58 @@ image {
   bottom: 0px;
 }
 .poweredbydoordash {
-  color: rgba(255, 255, 255, 0.692);
+  color: #fefffe;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 300;
   position: absolute;
   bottom: -100px;
   left: 445px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 .copyright {
-  color: rgba(255, 255, 255, 0.692);
+  color: #fefffe;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 700;
+  font-weight: 300;
   position: absolute;
   bottom: -125px;
   left: 420px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 .social {
-  color: rgba(255, 255, 255, 0.692);
+  color: #fefffe;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 300;
   position: absolute;
   bottom: -30px;
   left: 470px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 .footer {
   width: 1063px;
   height: 140px;
-  background-color: rgb(37, 32, 32);
+  background-color: #171717;
   margin-top: 650px;
   border-radius: 10px;
 }
@@ -222,6 +259,13 @@ image {
   position: absolute;
   left: 60px;
   bottom: 570px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 .icon1 {
   position: absolute;
