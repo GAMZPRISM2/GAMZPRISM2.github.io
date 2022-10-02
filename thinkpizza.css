@@ -296,12 +296,12 @@ image {
   left: 520px;
   bottom: -645px;
 }
-a {
+ul {
   color: #fefffe;
   text-decoration: none;
 }
 
-a:hover {
+ul:hover {
   color:#fefffe;
 }
 .cartnocss{
@@ -310,4 +310,17 @@ a:hover {
   font-weight: 700;
   color: green;
   
+}
+.click{
+  position: sticky;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  left: 10000px;
+  width: 30px;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid white;
 }
