@@ -58,7 +58,7 @@ li:last-child {
 li a {
   display: block;
   color: white;
-  text-align: center;
+  
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -204,6 +204,7 @@ image {
   position: absolute;
   bottom: -110px;
   left: 445px;
+  
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -219,6 +220,7 @@ image {
   font-weight: 700;
   font-weight: 300;
   position: absolute;
+  
   bottom: -150px;
   left: 325px;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -260,6 +262,7 @@ image {
   position: absolute;
   left: 60px;
   bottom: 565px;
+  
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -303,6 +306,7 @@ ul {
 
 ul:hover {
   color:#fefffe;
+  
 }
 .cartnocss{
   font-family: 'Roboto', sans-serif;
@@ -314,7 +318,7 @@ ul:hover {
 .click{
   position: sticky;
   color: white;
-  text-align: center;
+  
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   font-weight: 700;
@@ -323,4 +327,9 @@ ul:hover {
   background-color: red;
   border-radius: 10px;
   border: 2px solid white;
+}
+
+a{
+  text-decoration: none;
+  color: #fefffe;
 }
