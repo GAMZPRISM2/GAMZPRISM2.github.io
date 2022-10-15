@@ -19,6 +19,7 @@ ul {
                                   supported by Chrome and Opera */
   
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -251,8 +252,132 @@ image {
   width: 100%;
   height: 200px;
   background-color: #171717;
-  margin-top: 650px;
+  margin-top: 570px;
   border-radius: 10px;
+}
+.promocode{
+  position: sticky;
+  width: 20.5%;
+  height: 50px;
+  background-color: #171717;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.cost{
+  position: sticky;
+  width: 10%;
+  height: 60px;
+  background-color: #171717;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.deliverytext{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.totaltext{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.deliverycost{
+  position: absolute;
+  top: 5px;
+  left: 90px;
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.totalcost{
+  position: absolute;
+  top: 0px;
+  left: 52px;
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.items{
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  background-color: #171717;
+  border-radius: 10px;
+}
+.promocodetext{
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.promocodeinput{
+  position: absolute;
+  bottom: 0px;
+  left: 140px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+img{
+  border-radius: 10px;
+}
+.itemtext{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  float:left;
+  padding-left: 160px;
+}
+.itemdes{
+  color: #fefffe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  float:left;
+  padding-left: 160px;
+  padding-top: 30px;
+}
+input[type=submit]{
+  position: absolute;
+  background-color: red;
+  bottom: -10px;
+  left: 15px;
+  border: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 45px;
+}
+.apply{
+  position: absolute;
+  left: 173px;
+  bottom: 0px;
 }
 .overall
 {
