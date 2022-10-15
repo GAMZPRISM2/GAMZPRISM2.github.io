@@ -257,7 +257,7 @@ image {
 }
 .promocode{
   position: sticky;
-  width: 20.5%;
+  width: 400px;
   height: 50px;
   background-color: #171717;
   margin-top: 15px;
@@ -265,7 +265,7 @@ image {
 }
 .cost{
   position: sticky;
-  width: 10%;
+  width: 160px;
   height: 60px;
   background-color: #171717;
   margin-top: 15px;
